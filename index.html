@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Casey Yee</title>
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style type="text/css">
+    body, html {
+      font-family: 'VT323', monospace;
+      letter-spacing: 3px;
+      font-size: 35px;
+      color: white;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      background: blue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    a {
+      background: transparent;
+      text-decoration: none;
+      border-bottom: 1px solid pink;
+      color: pink;
+    }
+
+    @media (max-width: 800px) {
+      body { font-size: 60%; }
+    }
+
+    #counter {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      background: white;
+      color: blue;
+    }
+
+    #container {
+      background: #e100ff;
+      background: -moz-linear-gradient(-45deg, #e100ff 0%, #0090ff 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(-45deg, #e100ff 0%,#0090ff 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(135deg, #e100ff 0%,#0090ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin: 30px;
+    }
+
+    .title {
+      background: blue;
+      color: white;
+    }
+
+    .social {
+      background: blue;
+      color: white;
+    }
+
+    .blinking-cursor {
+      color: #2E3D48;
+      -webkit-animation: 1s blink step-end infinite;
+      -moz-animation: 1s blink step-end infinite;
+      -ms-animation: 1s blink step-end infinite;
+      -o-animation: 1s blink step-end infinite;
+      animation: 1s blink step-end infinite;
+    }
+
+    @keyframes "blink" {
+      from, to {
+        color: transparent;
+      }
+      50% {
+        color: white;
+      }
+    }
+
+    @-moz-keyframes blink {
+      from, to {
+        color: transparent;
+      }
+      50% {
+        color: white;
+      }
+    }
+
+    @-webkit-keyframes "blink" {
+      from, to {
+        color: transparent;
+      }
+      50% {
+        color: white;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="counter"><span id="count">000</span> milliseconds wasted.</div>
+  <div id="container">
+    <span class="title">(^-^) HI!</span>
+
+    <br/><br/>
+
+    <span class="title">Sometime soon, there will be more than i have here now.</span>
+
+    <br/><br/>
+
+    <span class="social">* twitter</span> <a href="twitter.com/whoyee">@whoyee</a><br/>
+
+    <span class="social">* github</span> <a href="github.com/caseyyee">@caseyyee</a><br/>
+
+    <span class="social">* email</span> <a href="mailto: caseyyee.ca@gmail.com">caseyyee.ca@gmail.com</a>
+
+    <br/><br/>
+
+    <span class="title">Bye!</span>
+
+    <br/><br/>
+
+    <span class="blinking-cursor">&block;</span>
+
+    <br/>
+  </div>
+  <script type="text/javascript">
+    var count = document.querySelector('#count');
+    setInterval(function() {
+      count.innerHTML = parseInt(count.innerHTML) + 1;
+    }, 1)
+  </script>
+</body>
+</html>
