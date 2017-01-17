@@ -2,6 +2,7 @@
 
 What I'm thinking and learning about
 
+* [Responsive WebVR interactions](/responsive-webvr-interactions/)
 * [What it takes to be a full-stack WebVR developer.](/full-stack-webvr/)
 * [Learning Blender.](/learning-blender/)
 
