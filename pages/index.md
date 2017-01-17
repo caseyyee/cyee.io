@@ -8,7 +8,8 @@ What I'm thinking and learning about
 
 Latest projects
 
-* [WebVR Fireworks](/webvr-fireworks/)
+* [A-Frame UI Widgets](https://github.com/caseyyee/aframe-ui-widgets)
+* [WebVR Fireworks](https://github.com/caseyyee/webvr-fireworks)
 
 Articles, Presentations and Mentions
 
