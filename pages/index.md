@@ -11,13 +11,22 @@ Latest projects
 * [A-Frame UI Widgets](https://github.com/caseyyee/aframe-ui-widgets)
 * [WebVR Fireworks](https://github.com/caseyyee/webvr-fireworks)
 
-Articles, Presentations and Mentions
+### Articles, Presentations and Mentions
 
 * [Connecting Virtual Worlds: Hyperlinks in WebVR](https://blog.mozvr.com/connecting-virtual-worlds-hyperlinks-in-webvr/)
 * [W3C Workshop on Web and Virtual Reality: A Look Ahead](https://hacks.mozilla.org/2016/12/w3c-workshop-on-web-and-virtual-reality-a-look-ahead/)
+
+
+### Mentions
+*Wired*
+
+* [You Gotta Try DIY Virtual Reality, Even if You Make Hideous Things](https://www.wired.com/2017/02/gotta-try-diy-virtual-reality-even-make-hideous-things/)
+
+*Versions:Killscreen*
+
 * [The future of the internet is coming, and it’s in VR](https://versions.killscreen.com/future-internet-coming-vr/)
 
-More about me, if you want to be snoopy.git st
+### More about me, if you want to be snoopy.
 
 * [Resume](github.com/caseyyee/resume)
 * [Twitter](https://twitter.com/whoyee)
